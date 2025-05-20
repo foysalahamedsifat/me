@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <app-profile-image></app-profile-image>
+      <app-about-me></app-about-me>
+    </div>
+    <div class="col-md-9">
+      <div class="card">
+        <div class="card-header p-2">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#experiences" data-toggle="tab"
+                >Experiences</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#activites" data-toggle="tab"
+                >Skills</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+          <div class="tab-content">
+            <div class="active tab-pane" id="experiences">
+              <app-experience></app-experience>
+            </div>
+            <!-- /.tab-pane -->
+            <div class="tab-pane" id="activites">
+              <app-activity></app-activity>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
